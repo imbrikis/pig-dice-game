@@ -83,9 +83,7 @@ btnHold.addEventListener('click', ()=> {
       document.querySelector(`.player--${activePlayer}`).classList.remove('player--active')
     }
     // Switch to next player
-    if (isGameActive) {
-      switchPlayer()
-    }
+    switchPlayer()
   }
 })
 
